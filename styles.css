@@ -1,0 +1,49 @@
+html, body, div{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.selectBar{
+    padding: 20px 0px 20px 0px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+    border-top: 4px solid darkgrey;
+    background-color: lightgrey;
+}
+.selectBar a{
+    margin: 15px 50px 15px 50px;
+    padding: 20px 10px 20px 10px;
+    background-color: lightgrey;
+    color: darkgrey;
+    font-size: 30px;
+}
+.selectBar a:hover{
+    background-color: darkgrey;
+    color: lightgrey;
+    cursor: pointer;
+}
+.selectBar a#selected{
+    padding: 20px 10px 14px 10px;
+    border-bottom: 6px solid blue;
+    cursor: not-allowed;
+}
+
+.title{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    
+    background-color: darkgrey;
+    border-left: 10px solid blue;
+    color: lightgrey;
+    
+}
+.title h1{
+    font-size: 40px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    color: white;
+}
